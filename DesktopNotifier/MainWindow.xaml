@@ -15,20 +15,20 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0" Margin="10,10,3,10" >
-            <CheckBox Margin="0,0,0,5">
-                <TextBlock Text="Manager day" Foreground="Coral" FontWeight="Medium" />
+            <CheckBox x:Name="ManagementCheckbox" Margin="0,0,0,5">
+                <TextBlock Text="Management" Foreground="Coral" FontWeight="Medium" />
             </CheckBox>
-            <CheckBox Margin="0,0,0,5">
+            <CheckBox x:Name="DeepworkCheckbox" Margin="0,0,0,5">
                 <TextBlock Text="Deep work" Foreground="GreenYellow" FontWeight="Medium"/>
             </CheckBox>
-            <CheckBox Margin="0,0,0,5">
+            <CheckBox x:Name="OffCheckbox" Margin="0,0,0,5">
                 <TextBlock Text="Off" Foreground="MediumVioletRed" FontWeight="Medium"/>
             </CheckBox>
         </StackPanel>
 
         <StackPanel Grid.Column="1" Margin="0,9,10,10" >
-            <TextBlock Text="(every 1/2 hour)" Foreground="DarkGray" Margin="2,0,0,5"/>
-            <TextBlock Text="(every hour)" Foreground="DarkGray" Margin="-10,0,0,2"/>
+            <TextBlock Text="(every 1/2 hour)" Foreground="DarkGray" Margin="3,0,0,5"/>
+            <TextBlock Text="(every hour)" Foreground="DarkGray" Margin="-11,0,0,2"/>
             <TextBlock Text="(none)" Foreground="DarkGray" Margin="-51,0,0,5"/>
         </StackPanel>
 

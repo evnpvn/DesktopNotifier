@@ -23,6 +23,21 @@ namespace DesktopNotifier
         public MainWindow()
         {
             InitializeComponent();
+
+            //TODO: IF Deep work checkbox is selected THEN notify every half hour
+            if(DeepworkCheckbox.IsChecked == true)
+            {
+                //uncheck all other checkboxes
+                ManagementCheckbox.IsChecked = false;
+                OffCheckbox.IsChecked = false;
+                            
+                //activate function to give notifications every hour
+
+                DateTime currentTime = DateTime.Now;
+
+                if(currentTime = )
+
+            }
         }
     }
 }
