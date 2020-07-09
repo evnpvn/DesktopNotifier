@@ -1,0 +1,29 @@
+﻿<Window x:Class="DesktopNotifier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopNotifier"
+        mc:Ignorable="d"
+        Title="" Height="55" Width="100"
+        Background="#333333" FontSize="14">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="10,10,3,10" >
+            <TextBlock Text="Check email" Foreground="SteelBlue" FontWeight="Medium" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="0,9,10,10" >
+            <!--<TextBlock Text="(every 1/2 hour)" Foreground="DarkGray" Margin="2,0,0,5"/>
+            <TextBlock Text="(every hour)" Foreground="DarkGray" Margin="-10,0,0,2"/>
+            <TextBlock Text="(none)" Foreground="DarkGray" Margin="-51,0,0,5"/>-->
+        </StackPanel>
+
+
+    </Grid>
+</Window>
