@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopNotifier", "DesktopNotifier.csproj", "{422833A6-D5BE-433A-8443-A705BE378498}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopNotifier", "DesktopNotifier.csproj", "{4620CE76-62B9-4642-AE04-0AE18AABBF5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{422833A6-D5BE-433A-8443-A705BE378498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{422833A6-D5BE-433A-8443-A705BE378498}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{422833A6-D5BE-433A-8443-A705BE378498}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{422833A6-D5BE-433A-8443-A705BE378498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4620CE76-62B9-4642-AE04-0AE18AABBF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4620CE76-62B9-4642-AE04-0AE18AABBF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4620CE76-62B9-4642-AE04-0AE18AABBF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4620CE76-62B9-4642-AE04-0AE18AABBF5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F98F8FD5-6570-46D2-9C03-F1394ADE3F1D}
+		SolutionGuid = {6C6BCE35-941F-4A85-B7EB-F5A5B164FA9D}
 	EndGlobalSection
 EndGlobal

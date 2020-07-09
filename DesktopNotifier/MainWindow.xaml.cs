@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFHello
+namespace DesktopNotifier
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,12 +23,6 @@ namespace WPFHello
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //Print message "Hello world" to new dialog box
-            MessageBox.Show("Hello World");
         }
     }
 }
